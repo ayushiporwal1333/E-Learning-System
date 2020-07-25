@@ -1,0 +1,121 @@
+.aloginbg{
+	background: url(img/login1.jpg);
+	background-size: cover;
+}
+
+.uloginbg{
+	background: url(img/login2.jpg);
+	background-size: cover;
+}
+
+.registerbg{
+	background: url(img/reg.jpg);
+	background-size: cover;
+}
+
+.main-section{
+	margin: 0 auto;
+	margin-top: 70px;
+	padding: 0;
+}
+
+.modal-content{
+	background-color: #1C2833 !important;
+	opacity: 0.8;
+	padding: 0 18px;
+	width: 400px !important;
+	border-radius: 10px !important;
+}
+
+/*.user-img img{
+	height: 120px;
+	width: 120px;
+}
+
+.user-img{
+	margin-top: -60px;
+	margin-bottom: 45px;
+}*/
+
+.heading h3{
+	text-align: center;
+	color: #efefef !important;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.heading h3::after{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.form-group{
+	margin-bottom: 25px;
+	display: flex;
+	width: 320px;
+}
+
+.form-group input{
+	height: 42px;
+	border-radius: none;
+	border: 0;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+/*.form-group::before{
+	font-family: 'Font Awesome\ 5 Free';
+	content: "\f007";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+
+.form-group:last-of-type::before{
+	content: "\f023";
+}*/
+
+.icon {
+  padding: 10px;
+  background: #1c6288;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+
+.form-input button{
+	width: 40%;
+	margin: 5px 0 25px;
+}
+
+.btn-success{
+	background-color: #1c6288 !important;
+	font-size: 19px;
+	border-radius: 5px;
+	padding: 7px 14px !important;
+	border: 1px solid #daf1ff !important;
+}
+
+.btn-success:hover{
+	background-color: #13445e !important;
+	border: 1px solid #daf1ff !important;
+}
+
+.forgot{
+	padding: 5px 0 25px;
+}
+
+.forgot p{
+	color: white;
+}
+
+.forgot a{
+	color: #85C1E9;
+}

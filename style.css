@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Navigation Bar*/
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10; 
+}
+
+.navbar-brand img{
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	float: right;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover{
+	color: #85C1E9 !important;
+}
+
+.navbar-toggler{
+	border: none !important;
+}
+
+.nav-link{
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff !important;
+}
+
+.dropdown-menu{
+	border: none !important;
+	background-color: #333 !important;
+}
+
+.dropdown-item{
+	color: #fff !important;
+	text-align: right !important;
+}
+
+.dropdown-menu a:hover{
+	background-color: #333 !important;
+}
+
+
+/*Image*/
+
+#image .card{
+	border: none;
+	/*opacity: 0.8;*/
+}
+
+#image .card-img-overlay{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+
+#image .card-title{
+	text-align: center;
+	font-size: 42px;
+	opacity: 0.8;
+}
+
+
+/*About*/
+
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+.about-content{
+	padding-top: 20px;
+}
+
+.about-content p{
+	font-size: 17px;
+}
+
+#about img{
+	height: 220px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/*Categories*/
+
+#services{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/img15.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#services h1{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+}
+
+#services h1::after{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.services{
+	margin-top: 40px;
+}
+
+.icon{
+	font-size: 50px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	/*border: 1px solid #fff;
+	border-radius: 50%;*/
+}
+
+#services p{
+	font-size: 16px;
+	margin-top: 20px;
+	color: #ccc;
+}
+
+.services .col-md-3:hover{
+	background: #007bff;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+/*Contact Us*/
+
+#contact{
+	background: #efefef;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #777;
+}
+
+#contact h1{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+
+#contact h1::after{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.follow{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+
+.contact-info .fa{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+/*Footer*/
+
+#footer{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+}
+
+/*Admin Page*/
+
+#admin .row{
+	padding-top: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#admin .card{
+	border: none !important;
+	width: 300px;
+	opacity: 0.7;
+}
+
+#admin .card-title{
+	text-align: center;
+	padding-top: 20px;
+}
+
+h4{
+	text-align: center;
+	color: #555 !important;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+h4::after{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+/*User Page*/
+
+#users a{
+	color: black;
+	font-weight: 500;
+}
+
+/*Delete User*/
+
+.del{
+	padding-top: 50px;
+}
+
+/*Update*/
+
+.update{
+	padding-top: 20px;
+}
+
+
+form {
+ margin: 0;
+ padding: 30px 20px;
+ border: 2px solid #BDC3C7;
+ border-radius: 5px;
+}
+
+
+/*Display*/
+
+.display{
+	padding-top: 30px;
+}
+
